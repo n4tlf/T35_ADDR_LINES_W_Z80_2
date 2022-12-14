@@ -1,0 +1,186 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2022.1.226
+[EFX-0000 INFO] Compiled: Aug 29 2022.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+INFO: Read project database "C:/s100projects/T35_ADDR_LINES_W_Z80_2/T35_ADDR_LINES_W_Z80_2/T35_ADDR_LINES_W_Z80_2.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Pack.vhd' (VHDL-1481)
+-- Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/ieee/std_logic_1164.vdb' (VHDL-1493)
+-- Restoring VHDL unit 'std.standard' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/std/standard.vdb' (VHDL-1493)
+-- Restoring VHDL unit 'std.textio' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/std/textio.vdb' (VHDL-1493)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Pack.vhd(51): INFO: analyzing package 't80_pack' (VHDL-1014)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80s.vhd' (VHDL-1481)
+-- Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/ieee/numeric_std.vdb' (VHDL-1493)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80s.vhd(73): INFO: analyzing entity 't80s' (VHDL-1012)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80s.vhd(100): INFO: analyzing architecture 'rtl' (VHDL-1010)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_ALU.vhd' (VHDL-1481)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_ALU.vhd(62): INFO: analyzing entity 't80_alu' (VHDL-1012)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_ALU.vhd(88): INFO: analyzing architecture 'rtl' (VHDL-1010)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80.vhd' (VHDL-1481)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80.vhd(75): INFO: analyzing entity 't80' (VHDL-1012)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80.vhd(115): INFO: analyzing architecture 'rtl' (VHDL-1010)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd' (VHDL-1481)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd(68): INFO: analyzing entity 't80_mcode' (VHDL-1012)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd(137): INFO: analyzing architecture 'rtl' (VHDL-1010)
+-- Analyzing VHDL file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd' (VHDL-1481)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd(56): INFO: analyzing entity 't80_reg' (VHDL-1012)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd(76): INFO: analyzing architecture 'rtl' (VHDL-1010)
+-- Analyzing Verilog file 'C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v' (VERI-1482)
+INFO: Analysis took 0.0473512 seconds.
+INFO: 	Analysis took 0.046875 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.164 MB, end = 59.48 MB, delta = 4.316 MB
+INFO: 	Analysis peak virtual memory usage = 59.48 MB
+INFO: Analysis resident set memory usage: begin = 55.768 MB, end = 62.788 MB, delta = 7.02 MB
+INFO: 	Analysis peak resident set memory usage = 62.792 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80s.vhd(73): INFO: processing 'T80s(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80.vhd(75): INFO: processing 'T80(iowait=1)(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd(68): INFO: processing 'T80_MCode(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_ALU.vhd(62): INFO: processing 'T80_ALU(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd(56): INFO: processing 'T80_Reg(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd(79): INFO: extracting RAM for identifier 'RegsH' (VHDL-1754)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd(80): INFO: extracting RAM for identifier 'RegsL' (VHDL-1754)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v(23): INFO: compiling module 'T35_ADDR_LINES_W_Z80_2_top' (VERI-1018)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v(165): WARNING: expression size 28 truncated to fit in target size 27 (VERI-1209)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v(194): INFO: switching to VHDL mode to elaborate design unit 'T80s' (VERI-1231)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80s.vhd(73): INFO: processing 'T80s(mode=1,t2write=1,iowait=0)(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80.vhd(75): INFO: processing 'T80(mode=1)(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd(68): INFO: processing 'T80_MCode(mode=1)(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_ALU.vhd(62): INFO: processing 'T80_ALU(mode=1)(rtl)' (VHDL-1067)
+C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v(194): INFO: returning to Verilog mode to proceed with elaboration (VERI-1232)
+INFO: Elaboration took 0.255374 seconds.
+INFO: 	Elaboration took 0.234375 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 59.48 MB, end = 85.788 MB, delta = 26.308 MB
+INFO: 	Elaboration peak virtual memory usage = 85.788 MB
+INFO: Elaboration resident set memory usage: begin = 62.796 MB, end = 89.752 MB, delta = 26.956 MB
+INFO: 	Elaboration peak resident set memory usage = 89.756 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0008 WARNING] Top module not specified. 'T35_ADDR_LINES_W_Z80_2_top' is used as top module for the design.
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0144537 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 87.432 MB, end = 87.432 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 87.432 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 91.636 MB, end = 91.652 MB, delta = 0.016 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 91.664 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : F[5]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[4]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[3]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[1]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (INT_n=1).
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (NMI_n=1).
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (BUSRQ_n=1).
+[EFX-0200 WARNING] Removing redundant signal : z80rdy. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v:120)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'RegsH'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:79)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'RegsL'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:80)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_ADDR_LINES_W_Z80_2_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_MCode(mode=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_MCode(mode=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_ALU(mode=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_ALU(mode=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_Reg" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80_Reg" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80(mode=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80(mode=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80s(mode=1,t2write=1,iowait=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T80s(mode=1,t2write=1,iowait=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_ADDR_LINES_W_Z80_2_top" begin
+[EFX-0655 WARNING] Mapping into logic memory block 'T1/u0/Regs/RegsH'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:79)
+[EFX-0655 WARNING] Mapping into logic memory block 'T1/u0/Regs/RegsL'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:80)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 224 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_ADDR_LINES_W_Z80_2_top" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network counter[12] with 103 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network pll0_2MHz with 27 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 135 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 5s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 73, ed: 230, lv: 3, pw: 225.40
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n163 with 48 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n5 with 27 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.0022301 seconds.
+INFO: 	VDB Netlist Checker took 0.015625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 102.424 MB, end = 102.424 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 125.028 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 108.764 MB, end = 108.804 MB, delta = 0.04 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 128.328 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'T35_ADDR_LINES_W_Z80_2_top' to Verilog file 'C:/s100projects/T35_ADDR_LINES_W_Z80_2/T35_ADDR_LINES_W_Z80_2/outflow/T35_ADDR_LINES_W_Z80_2.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	26
+[EFX-0000 INFO] EFX_LUT4        : 	83
+[EFX-0000 INFO] EFX_FF          : 	74
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

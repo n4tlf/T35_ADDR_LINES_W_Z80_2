@@ -1,0 +1,72 @@
+
+# Efinity Interface Configuration
+# Version: 2022.1.226
+# Date: 2022-12-14 00:38
+
+# Copyright (C) 2017 - 2022 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+output, 101, 483, 0, __bypass__, boardActive
+optional input, 130, 9, 1, __bypass__, clockIn
+output, 107, 0, 0, __bypass__, F_add_oe
+output, 130, 477, 0, __bypass__, F_bus_ctl_oe
+output, 119, 0, 0, __bypass__, F_bus_stat_oe
+input, 130, 241, 1, __bypass__, pll0_2MHz
+input, 126, 0, 3, __bypass__, pll0_LOCKED
+output, 71, 0, 0, __bypass__, s100_ADSB
+output, 95, 0, 0, __bypass__, s100_CDSB
+output, 76, 483, 2, __bypass__, s100_clock
+output, 57, 483, 0, __bypass__, s100_MEMR
+output, 100, 483, 0, __bypass__, s100_n_pWR
+output, 62, 483, 0, __bypass__, s100_n_sWO
+output, 104, 483, 2, __bypass__, s100_pDBIN
+output, 130, 276, 0, __bypass__, s100_PHANTOM
+output, 80, 483, 2, __bypass__, s100_PHI
+output, 71, 483, 0, __bypass__, s100_pHLDA
+output, 105, 483, 2, __bypass__, s100_pSTVAL
+output, 90, 483, 0, __bypass__, s100_pSYNC
+input, 130, 296, 1, __bypass__, s100_rdy
+output, 42, 483, 2, __bypass__, s100_sHLTA
+output, 52, 483, 0, __bypass__, s100_sINP
+output, 72, 483, 0, __bypass__, s100_sINTA
+output, 67, 483, 0, __bypass__, s100_sM1
+output, 130, 475, 0, __bypass__, s100_sMWRT
+output, 47, 483, 0, __bypass__, s100_sOUT
+input, 130, 274, 1, __bypass__, s100_xrdy
+output, 0, 117, 0, __bypass__, S100adr0_15[0]
+output, 0, 109, 0, __bypass__, S100adr0_15[1]
+output, 0, 76, 0, __bypass__, S100adr0_15[2]
+output, 0, 61, 0, __bypass__, S100adr0_15[3]
+output, 0, 46, 0, __bypass__, S100adr0_15[4]
+output, 10, 0, 0, __bypass__, S100adr0_15[5]
+output, 28, 0, 0, __bypass__, S100adr0_15[6]
+output, 52, 0, 0, __bypass__, S100adr0_15[7]
+output, 58, 0, 0, __bypass__, S100adr0_15[8]
+output, 100, 0, 0, __bypass__, S100adr0_15[9]
+output, 76, 0, 0, __bypass__, S100adr0_15[10]
+output, 82, 0, 0, __bypass__, S100adr0_15[11]
+output, 22, 0, 0, __bypass__, S100adr0_15[12]
+output, 4, 0, 0, __bypass__, S100adr0_15[13]
+output, 16, 0, 0, __bypass__, S100adr0_15[14]
+output, 88, 0, 0, __bypass__, S100adr0_15[15]
+output, 64, 0, 0, __bypass__, S100adr16_19[0]
+output, 40, 0, 0, __bypass__, S100adr16_19[1]
+output, 46, 0, 0, __bypass__, S100adr16_19[2]
+output, 34, 0, 0, __bypass__, S100adr16_19[3]
+output, 0, 277, 0, __bypass__, SBCLEDs[0]
+output, 0, 289, 0, __bypass__, SBCLEDs[1]
+output, 0, 293, 0, __bypass__, SBCLEDs[2]
+output, 0, 298, 0, __bypass__, SBCLEDs[3]
+output, 130, 7, 0, __bypass__, SBCLEDs[4]
+output, 130, 5, 0, __bypass__, SBCLEDs[5]
+output, 130, 3, 0, __bypass__, SBCLEDs[6]
+output, 0, 317, 0, __bypass__, SBCLEDs[7]
+output, 0, 319, 0, __bypass__, seg7[0]
+output, 0, 321, 0, __bypass__, seg7[1]
+output, 0, 323, 0, __bypass__, seg7[2]
+output, 0, 325, 0, __bypass__, seg7[3]
+output, 0, 327, 0, __bypass__, seg7[4]
+output, 0, 330, 0, __bypass__, seg7[5]
+output, 0, 334, 0, __bypass__, seg7[6]
+output, 0, 339, 0, __bypass__, seg7_dp
+input, 61, 483, 3, __bypass__, sw1_reset_n

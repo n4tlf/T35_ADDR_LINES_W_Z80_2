@@ -1,0 +1,18 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 14, 2022 00:37:53
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 28 truncated to fit in target size 27 (VERI-1209) (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v:165)
+[EFX-0008 WARNING] Top module not specified. 'T35_ADDR_LINES_W_Z80_2_top' is used as top module for the design.
+[EFX-0200 WARNING] Removing redundant signal : F[5]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[4]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[3]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[1]. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_MCode.vhd:84)
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (INT_n=1).
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (NMI_n=1).
+[EFX-0266 WARNING] Module Instance 'T1' input pin tied to constant (BUSRQ_n=1).
+[EFX-0200 WARNING] Removing redundant signal : z80rdy. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2_top.v:120)
+[EFX-0655 WARNING] Mapping into logic memory block 'T1/u0/Regs/RegsH'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:79)
+[EFX-0655 WARNING] Mapping into logic memory block 'T1/u0/Regs/RegsL'. (C:\s100projects\T35_ADDR_LINES_W_Z80_2\T35_ADDR_LINES_W_Z80_2\T80_Reg.vhd:80)
